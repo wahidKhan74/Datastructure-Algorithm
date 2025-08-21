@@ -114,3 +114,26 @@ myTree.traverse(node => {
     console.log(`Visiting node '${node.value}'`);
     console.log(node.toString());
 });
+
+
+
+// Tree Fundamentals (One-liners)
+// Root → The topmost node of a tree.
+// Parent → A node that has children.
+// Child → A node that descends from a parent.
+// Leaf (External Node) → A node with no children.
+// Internal Node → A node that has at least one child.
+// Sibling → Nodes that share the same parent.
+// Ancestor → Any node on the path from a node to the root.
+// Descendant → Any node that comes under a given node.
+
+// Degree of Node → Number of children a node has.
+// Degree of Tree → Maximum degree of any node in the tree.
+// Depth (Level) of Node → Distance from root to that node.
+// Height of Node → Distance from that node to the deepest leaf.
+// Height of Tree → Height of the root (longest path root → leaf).
+// Level → Set of nodes at the same depth.
+// Subtree → A tree formed by any node and its descendants.
+// Path → Sequence of nodes from one node to another.
+// Edge → Connection between two nodes (parent → child).
+// Size of Tree → Total number of nodes.
