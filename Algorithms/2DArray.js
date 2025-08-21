@@ -18,6 +18,8 @@ for (let row = 0; row < twoDArray.length; row++) {
     }
 }
 
+twoDArray[1][1] = 10; // Modifying an element
+
 // Add a new row to the 2D array
 twoDArray.push([10, 11, 12]);
 console.log("After adding a new row:", twoDArray);

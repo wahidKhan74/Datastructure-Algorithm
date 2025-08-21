@@ -1,4 +1,5 @@
-// Stack : Implementation of a stack data structure
+// Stack : Implementation of a stack data structure with array-based storage
+// This stack supports basic operations like push, pop, peek, isEmpty, size, and clear.
 class Stack {
   
   // Initialize the stack

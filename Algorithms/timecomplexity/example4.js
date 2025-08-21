@@ -22,3 +22,11 @@ function bruteForcePassword(password) {
 
 bruteForcePassword("101"); 
 // Output: Password found: 101 :: O(2^n) - Exponential time complexity due to all combinations of characters
+
+
+// O(1) → ✅ Best (constant, instant).
+// O(log n) → ✅ Very good (shrinks problem size fast).
+// O(n) → 🙂 Acceptable (scales linearly).
+// O(n log n) → 🙂 Still good (sorting level).
+// O(n²) → 😐 OK for small n, bad for big n.
+// O(2ⁿ) → 😱 Extremely bad (password cracking).
